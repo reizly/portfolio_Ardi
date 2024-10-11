@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mockup-phone {
+    width: 375px; /* Lebar ponsel */
+    height: 667px; /* Tinggi ponsel */
+    border: 16px solid #000; /* Border untuk ponsel */
+    border-radius: 36px; /* Radius sudut */
+    position: relative; /* Untuk positioning elemen anak */
+    background-color: #f3f4f6; /* Warna latar belakang ponsel */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk memberikan kedalaman */
+}
+
+.display {
+    height: 100%; /* Tinggi display */
+    overflow-y: auto; /* Scroll vertical jika konten lebih */
+    padding: 0; /* Menghapus padding untuk tampilan lebih bersih */
+}
+
+.artboard {
+    height: 100%; /* Menggunakan seluruh tinggi display */
+    background-color: white; /* Warna latar belakang artboard */
+    border-radius: 20px; /* Radius sudut artboard */
+    padding: 10px 20px; /* Padding untuk konten di dalam artboard, disesuaikan */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Bayangan dalam untuk artboard */
+}
